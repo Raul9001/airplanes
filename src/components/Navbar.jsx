@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Navbar.css"
+import { BiSolidPlaneAlt } from "react-icons/bi";
+import { FaSearch } from "react-icons/fa";
+
 
 const Navbar = () => {
   return (
@@ -11,29 +14,32 @@ const Navbar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul className="navbar-nav ms-auto  mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+          <a className="nav-link active me-3 mulish-bold" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">About Us</a>
+          <a className="nav-link active me-3 mulish-bold" href="#">About Us</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">Pages</a>
+          <a className="nav-link active me-3 mulish-bold" href="#">Pages</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">Blog</a>
+          <a className="nav-link active me-3 mulish-bold" href="#">Blog</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" href="#">Faq</a>
+          <a className="nav-link active me-3 mulish-bold" href="#">Faq</a>
         </li>
         <li className="nav-item ">
-          <a className="nav-link active" href="#">Contact Us</a>
+          <a className="nav-link active me-3 mulish-bold" href="#">Contact Us</a>
+        </li>
+        <li className="nav-item ">
+          <a className="nav-link active me-3 ms-2 " href=""><FaSearch /></a>
         </li>
         
       </ul>
       
-      <button className=" ">Book Now</button>
+      <button className="ms-3 mulish-bold"> <BiSolidPlaneAlt className='icon' />Book Now</button>
 
      
     </div>
