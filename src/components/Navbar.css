@@ -94,7 +94,7 @@
   font-size: 20px;
   margin-right: 9px;
   margin-bottom: 6px;
-  
+  transition: transform 0.3s ease;
 }
 
 
@@ -102,7 +102,7 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   border: 2px solid transparent;
-  border-radius: 20px;
+  border-radius: 50px;
   transition: all 0.3s ease;
   background-color:rgb(220, 187, 135) ;
   color: black;
@@ -114,4 +114,6 @@ button:hover {
 }
 
 
-  
+button:hover .icon{
+  transform: rotate(45deg);
+}
