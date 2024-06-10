@@ -1,0 +1,231 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+.mulish-medium {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500 ;
+  font-style: normal;
+}
+
+.mulish-regular {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400 ;
+  font-style: normal;
+}
+.mulish-bold {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700 ;
+  font-style: normal;
+}
+.mulish-black {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:900 ;
+  font-style: normal;
+}
+.mulish-light {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300 ;
+  font-style: normal;
+}
+.mulish-thin{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:100 ;
+  font-style: normal;
+}
+
+.mulish-medium6 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600 ;
+  font-style: italic;
+}
+.mulish-medium7 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600 ;
+  font-style: normal;
+}
+
+
+
+
+.playfair-display-bold {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.introduction{ 
+    background-color:rgb(25, 35, 45);
+   padding-top: 100px;
+   
+}
+    
+
+.introduction .left-side h1{
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+}
+.introduction .left-side h4{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    
+}
+
+.introduction .left-side span{
+  color: rgb(220, 187, 135);
+  font-size: 30px;
+  
+}
+
+.introduction .left-side p{
+  color: white;
+  font-size: 16px;
+  width: 90%;
+
+}
+  
+
+   
+ 
+
+
+  .introduction .right-side img{
+   
+    width: 700px;
+    height: 500px;
+    
+
+  }
+  .introduction .right-side {
+   
+  margin-top: 100px;
+    
+
+  }
+
+ 
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 50px;
+}
+.vertical-line {
+  width: 1px;
+  height: 200px;
+  background-color: rgb(48, 57, 66);
+  margin: 20px 0;
+}
+
+.social-icons button{
+  border-radius: 50%;
+  background-color: transparent;
+  color: rgb(220, 187, 135);
+  transition: all 0.3s ease;
+  
+  border: 0.5px solid rgb(220, 187, 135);
+  width: 25px;
+  height: 25px;
+}
+.social-icons .icon{
+  font-size: 12px;
+ 
+}
+
+.introduction .social-icons button:hover {
+  border-color: transparent;
+            background-color:rgb(220, 187, 135);
+            color:white;
+}
+.introduction .left-side{
+  margin-top: 130px;
+  margin-left: -50px;
+}
+
+
+
+.btngroup button{
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid rgb(220, 187, 135);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  background-color:transparent ;
+  color:rgb(220, 187, 135) ;
+  
+}
+
+.btngroup a{
+  color: white;
+  transition: all 0.3s ease;
+}
+
+
+.introduction .btngroup button:hover {
+  background-color:rgb(220, 187, 135) ;
+  color: rgb(25, 35, 45);
+  border-color: transparent;
+}
+
+.introduction .btngroup a:hover {
+ 
+  color:rgb(220, 187, 135) ;
+
+}
+
+
+.btngroup a .icon{
+  transition: transform 0.3s ease;
+}
+
+
+.introduction .btngroup a:hover .icon{
+  transform: translateX(5px);
+} 

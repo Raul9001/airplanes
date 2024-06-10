@@ -40,24 +40,7 @@
   font-weight:100 ;
   font-style: normal;
 }
-.mulish-medium {
-  font-family: "Mulish", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:500 ;
-  font-style: normal;
-}
-.mulish-medium {
-  font-family: "Mulish", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:500 ;
-  font-style: normal;
-}
-.mulish-medium {
-  font-family: "Mulish", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:500 ;
-  font-style: normal;
-}
+
 
 
 
@@ -98,7 +81,7 @@
 }
 
 
-button {
+ .navbar button {
   padding: 10px 20px;
   font-size: 16px;
   border: 2px solid transparent;
@@ -107,13 +90,13 @@ button {
   background-color:rgb(220, 187, 135) ;
   color: black;
 }
-button:hover {
+.navbar button:hover {
   border-color: rgb(220, 187, 135);
             background-color:transparent;
             color:rgb(220, 187, 135);
 }
 
 
-button:hover .icon{
+.navbar button:hover .icon{
   transform: rotate(45deg);
-}
+} 
