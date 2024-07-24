@@ -42,7 +42,7 @@ const Introduction = () => {
 </div>
 
 <div className='right-side col-lg-6 '>
-<img src="/assets/images/element-2.png" alt="" className='pt-5 mt-5 pe-5 me-5' />
+<img src="/assets/images/element-2.png" alt="" className='pt-5 mt-5 pe-4 me-4' />
 </div>
          
             </div>

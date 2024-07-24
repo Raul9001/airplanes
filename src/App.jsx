@@ -3,6 +3,12 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css'
 import Navbar from "./components/Navbar"
 import Introduction from "./components/Introduction"
+import Card1 from "./components/Card1"
+import About from "./components/About"
+
+
+
+
 
 
 
@@ -13,6 +19,9 @@ function App() {
     < >
     <Navbar />
    <Introduction/>
+   <Card1/>
+   <About/>
+  
     </>
   )
 }

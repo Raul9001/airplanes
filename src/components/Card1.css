@@ -1,0 +1,188 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+.mulish-medium {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500 ;
+  font-style: normal;
+}
+
+.mulish-regular {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400 ;
+  font-style: normal;
+}
+.mulish-bold {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700 ;
+  font-style: normal;
+}
+.mulish-black {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:900 ;
+  font-style: normal;
+}
+.mulish-light {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300 ;
+  font-style: normal;
+}
+.mulish-thin{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:100 ;
+  font-style: normal;
+}
+
+.mulish-medium6 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600 ;
+  font-style: italic;
+}
+.mulish-medium7 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600 ;
+  font-style: normal;
+}
+
+
+
+
+.playfair-display-bold {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card1{
+    background: url('/assets/images/element-6.png');
+    background-repeat: no-repeat;
+   
+   
+    
+    background-position: center
+}
+
+
+.card-1{
+    background: url('/assets/images/overview-1.png');
+    background-size: cover;
+    border-radius: 5px;
+    
+   
+}
+.card-11{
+    background: url('/assets/images/overview-2.png');
+    background-size: cover;
+    border-radius: 5px;
+   
+}
+.card-body1 .card-title{
+ margin-top: 200px;
+}
+
+.card-body1 .card-title {
+    color: white;
+}
+.card-body1 p{
+    color: white;
+    
+
+}
+
+.card-body1 a{
+    text-decoration: none;
+    color: rgb(220, 187, 135);
+   
+    transition: transform 0.3s ease;
+}
+
+
+.card-body1 .icon{
+    color: rgb(220, 187, 135);
+    transform: rotate(45deg);
+    
+}
+
+
+
+
+.service-list h5 {
+  color: white;
+  padding: 10px 0;
+            border-bottom: 1px dashed #aaa;
+}
+
+.service-list .item {
+  padding: 10px 0;
+  border-bottom: 1px dashed #aaa; /* Dashed line */
+}
+
+
+
+.service-list .item .number {
+  font-weight: bold;
+  color: white;
+}
+
+.service-list .item .text {
+  padding-left: 10px;
+  color: white;
+}
+
+.service-list .item.active .text {
+  color: rgb(220, 187, 135);
+}
+
+
+
+.service-list .heshteg {
+  color: rgb(220, 187, 135);
+}
+
+.service-list h6{
+  color: white;
+  padding-top: 60px;
+}

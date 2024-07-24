@@ -1,0 +1,126 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+.mulish-medium {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500 ;
+  font-style: normal;
+}
+
+.mulish-regular {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400 ;
+  font-style: normal;
+}
+.mulish-bold {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700 ;
+  font-style: normal;
+}
+.mulish-black {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:900 ;
+  font-style: normal;
+}
+.mulish-light {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300 ;
+  font-style: normal;
+}
+.mulish-thin{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:100 ;
+  font-style: normal;
+}
+
+.mulish-medium6 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600 ;
+  font-style: italic;
+}
+.mulish-medium7 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600 ;
+  font-style: normal;
+}
+
+
+.playfair-display-bold {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.playfair-display-medium {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-flynext{
+    background: url('/assets/images/bg-1.png');
+    background-size: cover;
+   margin-top: 130px;
+   padding: 50px;
+}
+
+
+.about-flynext .about-content h4{
+    margin-top: 55px;
+    color: white;
+}
+.about-flynext .about-content h2{
+   font-size: 42px;
+    color: white;
+}
+.about-flynext .about-content p{
+   font-size: 16px;
+    color: white;
+}
+
+
+.about-flynext .about-content .about {
+    color: rgb(220, 187, 135);
+}
+
+

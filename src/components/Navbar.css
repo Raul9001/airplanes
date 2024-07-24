@@ -81,7 +81,7 @@
 }
 
 
- .navbar button {
+ .navbar .booknow {
   padding: 10px 20px;
   font-size: 16px;
   border: 2px solid transparent;
@@ -90,13 +90,19 @@
   background-color:rgb(220, 187, 135) ;
   color: black;
 }
-.navbar button:hover {
+ 
+  .navbar .booknow:hover {
   border-color: rgb(220, 187, 135);
             background-color:transparent;
             color:rgb(220, 187, 135);
 }
 
 
-.navbar button:hover .icon{
+.navbar .booknow:hover .icon{
   transform: rotate(45deg);
 } 
+
+
+.navbar .navbar-toggler .navbar-toggler-icon{
+  color: white;
+}
