@@ -74,81 +74,37 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.about-flynext{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/bg-1.png');
-    background-size: cover;
-   margin-top: 130px;
-   padding: 50px;
+.parallax{
    
-}
-
-
-.about-flynext .about-content h4{
-    margin-top: 55px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/assets/images/bg-2.png');
     color: white;
-}
-.about-flynext .about-content h2{
-   font-size: 42px;
-    color: white;
-}
-.about-flynext .about-content p{
-   font-size: 16px;
-    color: white;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   height: 100%;
+   margin-top: 80px;
 }
 
 
-.about-flynext .about-content .about {
-    color: rgb(220, 187, 135);
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
 }
-
-
-   
-   
-    
-    
-    
-
-.about-flynext .flynext-right .video-icon{
-    
-    height: 80px;
-    width: 80px;
-    line-height: 80px;
-    
-    
-    text-align: center;
-    border-radius: 100%;
-    color: #dcbf87 !important;
-    display: inline-block;
-    background: rgba(220, 187, 135, 0.15);
-    margin-top: 270px;
-    margin-left: 130px;
+.stats-item {
+  text-align: center;
 }
-.about-flynext .flynext-right .icon{
-   
-   
-    margin-left: 10px;
+.stats-item h2 {
+  font-size: 3em;
+  margin: 0;
 }
-
+.stats-item p {
+  margin: 0;
+  font-size: 1.2em;
+}
+.divider {
+  border-left:  1px dashed rgb(220, 187, 135);
+  height: 70px;
+}

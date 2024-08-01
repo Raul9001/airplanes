@@ -6,7 +6,7 @@ import Introduction from "./components/Introduction"
 import Card1 from "./components/Card1"
 import About from "./components/About"
 import Benefits from "./components/Benefits"
-
+import Parallax from "./components/Parallax"
 
 
 
@@ -23,6 +23,8 @@ function App() {
    <Card1/>
    <About/>
    <Benefits/>
+   <Parallax/>
+
   
     </>
   )
